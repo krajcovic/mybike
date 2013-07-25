@@ -1,4 +1,4 @@
-package cz.krajcovic.shared;
+package cz.krajcovic.mybike.shared;
 
 /**
  * <p>
