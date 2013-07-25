@@ -8,7 +8,18 @@
 
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>About.html</welcome-file>
+		<welcome-file>about.html</welcome-file>
 	</welcome-file-list>
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>bikeServlet</servlet-name>
+		<servlet-class>cz.krajcovic.mybike.server.BikeServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>bikeServlet</servlet-name>
+		<url-pattern>/bikeservice</url-pattern>
+	</servlet-mapping>
 
 </web-app>
