@@ -20,7 +20,7 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='cz.krajcovic.client.Mybike'/>
+  <entry-point class='cz.krajcovic.mybike.client.Mybike'/>
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>
