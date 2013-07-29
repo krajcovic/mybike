@@ -125,9 +125,9 @@
 				<executions>
 					<execution>
 						<phase>compile</phase>
-						<goals>
+<!-- 						<goals>
 							<goal>exploded</goal>
-						</goals>
+						</goals> -->
 					</execution>
 				</executions>
 				<configuration>
@@ -139,8 +139,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>
