@@ -18,13 +18,11 @@ public class BikeCallback implements AsyncCallback<List<Bike>> {
 		this.table = table;
 	}
 
-	@Override
 	public void onFailure(Throwable arg0) {
 		Window.alert(arg0.getMessage());
 
 	}
 
-	@Override
 	public void onSuccess(List<Bike> result) {
 		List<Bike> bikeList = result;
 		DataSource dataSource = new DataSource(bikeList);

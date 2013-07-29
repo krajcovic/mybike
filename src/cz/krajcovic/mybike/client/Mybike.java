@@ -55,7 +55,6 @@ public class Mybike implements EntryPoint {
 
 		closeButton.addClickHandler(new ClickHandler() {
 
-			@Override
 			public void onClick(ClickEvent arg0) {
 				dialogBox.hide();
 
@@ -84,7 +83,6 @@ public class Mybike implements EntryPoint {
 		
 		button.addClickHandler(new ClickHandler() {
 			
-			@Override
 			public void onClick(ClickEvent arg0) {
 				BikeServiceAsync bikeService = GWT.create(BikeService.class);
 				ServiceDefTarget serviceDef = (ServiceDefTarget) bikeService;
@@ -100,7 +98,6 @@ public class Mybike implements EntryPoint {
 		Button buttonAbout = new Button("About");
 		buttonAbout.addClickHandler(new ClickHandler() {
 
-			@Override
 			public void onClick(ClickEvent arg0) {
 				Window.alert("Application MyBike under development");
 			}

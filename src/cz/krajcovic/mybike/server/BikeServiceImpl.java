@@ -32,13 +32,11 @@ public class BikeServiceImpl extends RemoteServiceServlet implements
 		bikeTestedData.setStatus(1);
 	}
 
-	@Override
 	public List<Bike> getUserBikes() {
 
 		return bikeList;
 	}
 
-	@Override
 	public Bike getBike(Integer id) {
 		for (Bike bike : bikeList) {
 			if (bike.getId().equals(id)) {
