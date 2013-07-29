@@ -1,5 +1,6 @@
 package cz.krajcovic.mybike.client;
 
+import cz.krajcovic.mybike.client.modules.Messages;
 import cz.krajcovic.mybike.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;

@@ -1,4 +1,4 @@
-package cz.krajcovic.mybike.client;
+package cz.krajcovic.mybike.client.modules;
 
 public class Messages {
 

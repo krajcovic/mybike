@@ -21,6 +21,22 @@
 		<url-pattern>/cz.krajcovic.mybike.mybikeJUnit/mybike/greet</url-pattern>
 	</servlet-mapping>
 
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>userServlet</servlet-name>
+		<servlet-class>cz.krajcovic.mybike.server.MyUserServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>userServlet</servlet-name>
+		<url-pattern>/mybike/userService</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>userServlet</servlet-name>
+		<url-pattern>/cz.krajcovic.mybike.mybikeJUnit/mybike/userService</url-pattern>
+	</servlet-mapping>
+
 	<!-- Default page to serve -->
 	<welcome-file-list>
 		<welcome-file>mybike.html</welcome-file>

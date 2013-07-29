@@ -17,7 +17,8 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='cz.krajcovic.mybike.client.mybike' />
+  <!-- <entry-point class='cz.krajcovic.mybike.client.mybike' /> -->
+  <entry-point class='cz.krajcovic.mybike.client.HelloServer' />
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client' />
