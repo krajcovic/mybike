@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='cz.krajcovic.mybike.mybike' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/mybike/greet" class="cz.krajcovic.mybike.server.GreetingServiceImpl" />
+
+</module>
