@@ -125,9 +125,9 @@
 				<executions>
 					<execution>
 						<phase>compile</phase>
-<!-- 						<goals>
+ 						<goals>
 							<goal>exploded</goal>
-						</goals> -->
+						</goals>
 					</execution>
 				</executions>
 				<configuration>
